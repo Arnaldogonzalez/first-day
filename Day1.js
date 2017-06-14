@@ -69,12 +69,9 @@ if (!(!alive || distance > 1000 || trapped || enemies < 0)) {
     alert("game goes on");
 }
 
-if ((alive && distance <= 1000 && !trapped && !enemies >= 0)){
+if (alive && distance <= 1000 && !trapped && !enemies >= 0){
           alert("game goes on");
 }
-
-
-
 
 //8) Can you distribute the negation across the expression in parens?
 if (!(dead && level < 99 && world == "Earth")) {
@@ -113,7 +110,7 @@ Math.floor(Math.random() * 6) + 5;
 
 //13) Generate a random integer between -10 and 30
 
-Math.floor(Math.random() * 40) - 10;
+Math.floor(Math.random() * 41) - 10;
 
 
 //14) Write a coin flip function. It should return the string "heads" half
@@ -161,7 +158,7 @@ function pickCard(){
 
 //16) In programming, what is the opposite of black?
 
-none
+    Answer: !black
 
 //17) In programming, what is the opposite of x > y ?
 
